@@ -1,0 +1,285 @@
+body{
+    background: #F3F5FC;
+}
+
+header img{
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+
+main{
+    display: flex;
+    margin-left: 80px; 
+    margin-bottom: 50px;  
+}
+
+.input-texto{
+    position: absolute;
+    width: 700px;
+    height: 450px;
+    top: 168px;
+    left: 340px;
+    
+    background-color:  #F3F5FC ;
+    outline: none;
+    border: none;
+    resize: none;
+    
+    font: "Inter",;
+    font-size: 32px;
+    color: #0A3871;
+    
+}
+
+.input-texto::placeholder { 
+    font: "Inter",;
+    font-size: 32px;
+    color: #0A3871; 
+}
+
+
+.botones{
+    position: absolute;
+    width: 800px;
+    height: 67px;
+    left: 340px;
+    top: 800px;
+}
+
+.encriptar{
+    width: 328px;
+    height: 67px;
+    margin: 40px;
+
+    /* Dark blue/dark-blue-300 */
+    background: #0A3871;
+    border-radius: 24px;
+    
+    font: "Inter";
+    color: #F3F5FC;
+    font-size: 20px;
+    
+}
+
+.desencriptar{
+    width: 328px;
+    height: 67px;
+
+    /* Dark blue/dark-blue-300 */
+    background: #F3F5FC;
+    border-radius: 24px;
+    
+    font: "Inter";
+    color: #0A3871;
+    font-size: 20px;
+    
+}
+
+
+.mensaje{
+    position: absolute;
+    width: 400px;
+    height: 650px;
+    left: 1200px;
+    top: 100px;
+    outline: none;
+    border: none;
+    resize: none;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-top: 10px;
+    
+    /* shadow */
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    
+    background: #FFFFFF;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    
+    background-image: url(imagenes/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300;
+    
+    
+    /* Gray/gray-400 */
+    color: #495057;
+    
+   
+}
+
+.mensaje::placeholder{
+    position: relative;
+    text-align: center;
+    top: 500px;
+    color: #495057;
+    
+}
+
+
+.copiar{
+    position: absolute;
+    width: 336px;
+    height: 67px;
+    left: 1235px;
+    top: 660px;
+
+    /* Dark blue/dark-blue-300 */
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    
+    font: "Inter";
+    color: #0A3871;
+    font-size: 20px;
+    
+}
+
+@media (max-width:820px) {
+
+    header img{
+        position: absolute;
+        width: 80px;
+        height: 35px;
+        left: 10px;
+        top: 30px;
+    }
+
+    .input-texto{
+        position: absolute;
+        width: 400px;
+        height: 300px;
+        top: 200px;
+        left: 60px;
+    }
+
+    .input-texto::placeholder{
+        text-align: center;
+    }
+
+    
+    .botones{
+        position: absolute;
+        width: 500px;
+        height: 67px;
+        left: 50px;
+        top: 600px;
+    }
+    
+    .encriptar{
+        width: 150px;
+    }
+    
+    .desencriptar{
+        width: 150px;
+        
+    }
+
+    .mensaje{
+        position: absolute;
+        width: 500px;
+        height: 350px;
+        left: 20px;
+        top: 750px;
+        background-image: none;
+        font-size: 40px;
+    }
+
+    .mensaje::placeholder{
+        position: relative;
+        text-align: center;
+        top: 150px;
+        color: #495057;
+        
+    }
+
+    .copiar{
+        position: absolute;
+        width: 150px;
+        height: 30px;
+        left: 200px;
+        top: 1050px;
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width:395px) {
+
+    header img{
+        position: absolute;
+        width: 60px;
+        height: 24px;
+        left: 5px;
+        top: 30px;
+    }
+
+    .input-texto{
+        position: absolute;
+        width: 200px;
+        height: 250px;
+        top: 200px;
+        left: 25px;
+    }
+
+    .input-texto::placeholder{
+        font-size: 20px;
+    }
+
+    
+    .botones{
+        position: absolute;
+        width: 200px;
+        height: 67px;
+        left: 20px;
+        top: 500px;
+    }
+    
+    .encriptar{
+        font-size: 10px;
+        width: 80px;
+        margin: 5px;
+        height: 30px;
+
+    }
+    
+    .desencriptar{
+        font-size: 10px;
+        width: 80px;
+        height: 30px;
+        
+    }
+
+    .mensaje{
+        position: absolute;
+        width: 300px;
+        height: 150px;
+        left: 20px;
+        top: 750px;
+        background-image: none;
+    }
+
+    .mensaje::placeholder{
+        position: relative;
+        text-align: center;
+        top: 50px;
+        color: #495057;
+        
+    }
+
+    .copiar{
+        position: absolute;
+        width: 150px;
+        height: 30px;
+        left: 200px;
+        top: 760px;
+        font-size: 10px;
+    }
+
+}
